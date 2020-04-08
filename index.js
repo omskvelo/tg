@@ -14,6 +14,7 @@ if (label) {
     link = document.getElementById('wrapper');
     link.href = 'http://t.me/' + label
     var path = link.pathname.split('/', 3);
+    path.shift();
     var str = '';
 
     switch (path[1]) {
