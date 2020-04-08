@@ -15,6 +15,8 @@ if (label) {
     link.href = 'http://t.me/' + label
     var path = link.pathname.split('/', 3);
     path = path.shift();
+    
+    console.log('path: ' + path)
     var str = '';
 
     switch (path[1]) {
