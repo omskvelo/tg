@@ -41,6 +41,8 @@ if (label) {
                 str += '&post=' + path[2];
             }
     }
+    
+    link.innerHTM = str;
 
     link.href = str;
     link.style.display = 'inline-block';
